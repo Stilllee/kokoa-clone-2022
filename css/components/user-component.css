@@ -52,3 +52,8 @@
   display: block;
   margin-bottom: 5px;
 }
+
+.user-component__subtitle {
+  display: flex;
+  align-items: center;
+}
