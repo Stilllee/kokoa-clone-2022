@@ -4,7 +4,7 @@
 
 #chat-screen {
   background-color: #FFC219;
-  height: 11000vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header, 
@@ -14,6 +14,39 @@
   width: 100%;
   box-sizing: border-box;
   background-color: #FFC219;
+}
+
+/* @keyframes fadeIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+} */
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 .main-chat {
@@ -43,6 +76,7 @@
   width: 100%;
   display: flex;
   margin-top: 25px;
+  animation: fadeInLeft 0.8s linear;
 }
 
 .message-row img {
@@ -78,6 +112,7 @@
 
 .message-row--own {
   justify-content: flex-end;
+  animation: fadeInRight 0.8s linear;
 }
 
 .message-row--own .message__bubble {
@@ -103,6 +138,7 @@
   padding: 5px 25px;
   box-sizing: border-box;
   align-items: center;
+  transition: all .3s ease-in-out;
 }
 
 .reply i {
@@ -121,17 +157,18 @@
 .reply input {
   font-size: 16px;
   padding: 5px 0px 5px 20px;
-  opacity: 0.6;
   height: 30px;
-  width: 100%;
+  width: 95%;
   border: var(--main-border);
   border-radius: 20px;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i, 
 .reply__column:last-child button {
   position: absolute;
-  right: -16px;
+  right: 0px;
   top: 6px;
 }
 
@@ -155,4 +192,25 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-face-smile,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply input:focus {
+  width: 90vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
 }
