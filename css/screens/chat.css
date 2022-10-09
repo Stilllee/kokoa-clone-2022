@@ -121,7 +121,6 @@
 .reply input {
   font-size: 16px;
   padding: 5px 0px 5px 20px;
-  color: rgba(0, 0, 0, 0.1);
   opacity: 0.6;
   height: 30px;
   width: 100%;
@@ -139,7 +138,7 @@
 .reply__column:last-child > i {
   right: 35px;
   top: 21px;
-}
+} 
 
 .reply__column button {
   background-color: var(--skyblue);
