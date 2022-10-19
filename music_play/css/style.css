@@ -1,0 +1,51 @@
+@import "variables.css";
+
+/* artist */
+@import "components/artist/artist__btn.css";
+@import "components/artist/artist__info.css";
+@import "components/artist/artist__music.css";
+@import "components/artist/playing-bar.css";
+
+/* play */
+@import "components/play/play__music.css";
+@import "components/play/play__music__playing-bar.css";
+@import "components/play/play__music__play-btn.css";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #F5F5F6;
+}
+
+.dual-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.artist, .play {
+  background-color: #FDFEFF;
+  width: 280px;
+  height: 570px;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.artist {
+  position: relative;
+}
+
+.artist__top-bar, .play__top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+.popular-authors {
+  margin: 80px 0px;
+  padding: 10px 20px
+}
+
+.popular-authors__head {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.popular-authors__main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.popular-authors__img {
+  width: 105px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.popular-authors__contents {
+  margin: 0px 20px;
+}
+
+.popular-authors__contents__text p:nth-child(1) {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+}
+.popular-authors__contents__text p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  line-height: 21px;
+}

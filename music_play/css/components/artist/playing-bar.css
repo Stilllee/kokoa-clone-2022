@@ -1,0 +1,37 @@
+.artist__playing-bar {
+  width: 260px;
+  height: 50px;
+  background-color: var(--darkgray);
+  color: white;
+  border-radius: 30px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.artist__playing-bar__info {
+  padding-left: 20px;
+}
+
+.artist__playing-bar__info p:first-child {
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #989899
+}
+.artist__playing-bar__info p:last-child {
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.artist__playing-bar__btn {
+  padding-right: 20px;
+}
+
+.artist__playing-bar__btn i {
+  margin: 0px 10px;
+}

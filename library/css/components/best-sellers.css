@@ -1,0 +1,39 @@
+.best-sellers {
+  margin: 30px 0px;
+  padding: 10px 20px;
+}
+
+.best-sellers__head {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.best-sellers__list {
+  display: flex;
+}
+
+.best-sellers__list__book {
+  width: 65px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.best-sellers__list__book-img {
+  width: 65px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.best-sellers__list__book-stars {
+  font-size: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.best-sellers__list__book-stars i {
+  color: #FFCF38;
+}
+.best-sellers__list__book-stars i:nth-child(5) {
+  color: #EDEDED;
+}

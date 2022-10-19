@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "playlist__header.css";
+@import "playlist__main.css";
+@import "playlist__btn.css";
+@import "playlist__songs.css";
+
+* {
+  box-sizing: border-box;  
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.playlist {
+  display: flex;
+  justify-content: center;
+  color: #2E659A;
+}
+
+.playlist__box {
+  width: 414px;
+  height: 896px;
+  border: 5px solid #2E659A;
+  background-color: whitesmoke;
+}
+
+
+
+

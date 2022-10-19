@@ -1,0 +1,17 @@
+@import "components/top-box.css";
+@import "components/book-of-the-day.css";
+@import "components/best-sellers.css";
+@import "components/popular-authors.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.library {
+  width: 400px;
+  height: 850px;
+  overflow: hidden;  
+  background-color: #FBFBFB;
+}
+
+

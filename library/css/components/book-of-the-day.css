@@ -1,0 +1,89 @@
+.book-of-the-day {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.book-of-the-day__head {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.book-of-the-day__main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.book-of-the-day__img {
+  width: 105px;
+  height: 155px;
+  border-radius: 10px;
+}
+
+.book-of-the-day__contents {
+  margin: 0px 20px;
+}
+
+.book-of-the-day__contents p:nth-child(1) {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+}
+.book-of-the-day__contents p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.book-of-the-day__contents__stars {
+  margin-bottom: 10px;
+}
+
+.book-of-the-day__contents__stars i {
+  color: #FFCF38;
+}
+.book-of-the-day__contents__stars i:nth-child(5) {
+  color: #EDEDED;
+}
+
+.book-of-the-day__contents__category {
+  display: flex;
+}
+
+.book-of-the-day__contents__category div {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.book-of-the-day__btn {
+  height: 54px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.book-of-the-day__btn div {
+  background-color: #FFCF38;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-right: 50px;
+}
+
+.book-of-the-day__btn button {
+  background-color: black;
+  color: #EDEDED;
+  height: 35px;
+  width: 100px;
+  font-size: 10px;
+  border-radius: 5px;
+}

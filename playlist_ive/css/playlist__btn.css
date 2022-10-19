@@ -1,0 +1,36 @@
+.playlist__btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px;
+}
+
+.playlist__btn div {
+  border: 3px solid #7BAED6;
+  background-color: white;
+  height: 60px;
+  border-width: 1px 1px 5px 1px;
+}
+
+.playlist__btn__play {
+  width: 180px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist__btn__play i, .playlist__btn__play span {
+  margin: 0 5px;
+}
+
+.playlist__btn__heart, .playlist__btn__plus {
+  width: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

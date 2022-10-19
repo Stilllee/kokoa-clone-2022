@@ -1,0 +1,41 @@
+.play__music__playing-bar__sticks {
+  display: flex;
+}
+
+.stick-one {
+  margin-left: 20px;
+  width: 160px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: var(--mycolor);
+  position: relative;
+}
+
+.stick-two {
+  width: 80px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1)
+}
+
+.play__music__playing-bar__stick__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--mycolor);
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.play__music__playing-bar__time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.play__music__playing-bar__time p {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  margin: 10px 20px;
+}

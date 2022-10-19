@@ -1,0 +1,30 @@
+.artist__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist__info__img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  box-shadow: 0px 7px 10px rgba(93, 34, 22, 0.5);
+}
+
+.artist__info__txt {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.artist__info__txt__name {
+  font-size: 18px;
+  margin-bottom: 10px;  
+}
+
+.artist__info__txt__genre {
+  font-size: 12px;
+  color: var(--gray);
+  text-align: center;
+}
+
+

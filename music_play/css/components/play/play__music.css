@@ -1,0 +1,30 @@
+.play__music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play__music__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  box-shadow: 0px 15px 20px rgba(42, 99, 141, 0.5);
+  margin: 20px 0px;
+}
+
+.play__music__info {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.play__music__info__title {
+  font-size: 22px;
+  margin-bottom: 10px;  
+}
+
+.play__music__info__name {
+  font-size: 14px;
+  color: var(--gray);
+  text-align: center;
+}
+
